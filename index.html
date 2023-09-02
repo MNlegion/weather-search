@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Weather Search</title>
-</head>
-<body>
-    
+  </head>
+  <body>
+    <header>
+      <h1>Weather Search</h1>
+      <p>Search for a city to see the current and upcoming weather forecast!</p>
+    </header>
+
+    <main>
+      <h3>Search By City</h3>
+      <form id="city-form">
+        <label for="city-name">City Name</label>
+        <input type="text" name="city-name" />
+        <button type="submit">Get Weather</button>
+      </form>
+    </main>
+
     <script src="./assets/js/index.js"></script>
-</body>
+  </body>
 </html>
